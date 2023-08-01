@@ -1,0 +1,55 @@
+/* wardrobe.css */
+
+body {
+  background-color: #f0f0f0; /* Set the background color for the entire page */
+}
+
+.wardrobe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.upload-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.clothes-list {
+  margin-left: 55%;
+}
+
+.recommendation-list {
+  margin-left: 20%;
+}
+
+/* Optional: Style the buttons and file input */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

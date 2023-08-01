@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to fill the viewport vertically */
+    background-color: #f2f2f2; /* Add a light gray background color */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Add some spacing between form groups */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 8px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between; /* Add space between the buttons */
+    width: 10%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Add a blue color to the buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darken the button color on hover */
+  }
+  
