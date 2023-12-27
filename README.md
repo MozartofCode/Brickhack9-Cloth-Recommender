@@ -1,6 +1,6 @@
 PROJECT NAME
 
-"Your Recommender" 
+"Fit Check" 
 
 INTRODUCTION
 
