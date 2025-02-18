@@ -1,48 +1,83 @@
-PROJECT NAME
+# 👕 Fit Check – AI-Powered Clothing Recommender  
 
-"Fit Check" 
+**An AI-driven web application that provides clothing recommendations based on your wardrobe. Built using TensorFlow, React.js, and Node.js, this project was developed for BrickHack 9 at the Rochester Institute of Technology.**  
 
-INTRODUCTION
+## 📌 Overview  
+Fit Check is a **machine learning-powered fashion recommendation system** designed to enhance personal styling. Created for **BrickHack 9**, this project satisfies the **Constellation Brands Challenge**, which tasked participants with using **AI to elevate the human experience**.  
 
-This was a project that was developed for BrickHack 9 at Rochester Institute of Technology by Bertan Berker, Sean Gilday, John Skorcik and Gavin Mcllvaine.
+## 🏆 Hackathon Participation  
+This project was developed by:  
+- **Bertan Berker**  
+- **Sean Gilday**  
+- **John Skorcik**  
+- **Gavin Mcllvaine**  
 
-The purpose of the project was to create an MVP that would satisfy the requirements of the constellation brand challenge, which is:
+Fit Check was built as an **MVP (Minimum Viable Product)** to demonstrate how AI can assist users in **matching outfits based on wardrobe content**.  
 
- Constellation Brands - Elevating with AI
-Our hackathon challenge invites you to use AI to improve the human experience. Utilize existing services (ex., ChatGPT, GitHub Copilot, Tensorflow),
-develop your own intelligent system, or create mockups of AI responses to bring your ideas to life. We want you to showcase how AI can elevate human abilities
-rather than replace them. Consider how AI could enhance your creative work by streamlining everyday tasks. Take inspiration from existing technologies and think about
-the potential for AI integration. Let your imagination run wild, and consider how AI could improve your life and work. Let's work together to revolutionize the future
-of productivity – we can't wait to see what you come up with! Each member of the winning team will receive a $150 Amazon gift card.
+## 🔥 Key Features  
+✅ **Add Clothes to Your Wardrobe** – Users can upload images of their clothing items.  
+✅ **AI-Powered Image Processing** – Detects **color and clothing type** using TensorFlow.  
+✅ **Smart Outfit Recommendations** – Suggests matching clothing combinations based on wardrobe contents.  
+✅ **User-Friendly Web Application** – Fully interactive interface built with **React.js**.  
 
-We created a web-application using Tensorflow that gives clothing recommendations to users based on what clothes they have in their wardrobe.
+## 🏗️ Tech Stack  
+- **Frontend:** React.js  
+- **Backend:** Node.js (Express.js framework)  
+- **Database:** MySQL (Relational Database)  
+- **Machine Learning:** TensorFlow (Image Processing)  
+- **API Requests:** Axios  
+- **Hosting:** Localhost Development Server  
 
-We utilized MySQL as our relational database, node.js (express.js framework) as our backend, python to handle our image processing functions and lastly we used
-reactJS for our frontend for our web application.
+## 🛠️ Installation & Setup  
+### **Clone the repository:**  
+```sh
+git clone https://github.com/MozartofCode/Brickhack9-Cloth-Recommender.git
+cd Brickhack9-Cloth-Recommender
+```
 
-FEATURES
+### **Backend Setup (Node.js + Express.js)**  
+1. Navigate to the backend folder:  
+   ```sh
+   cd backend
+   ```
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
+3. Start the backend server (default: `localhost:5000`):  
+   ```sh
+   node index.js
+   ```
 
-1- Adding clothes to your wardrobe
-2- Image processing that detects the color and type of your cloth
-3- Our recommendation algorithm that gives you the best recommendations on what to match
+### **Frontend Setup (React.js)**  
+1. Navigate to the frontend folder:  
+   ```sh
+   cd frontend
+   ```
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
+3. Start the frontend server (default: `localhost:3000`):  
+   ```sh
+   npm start
+   ```
 
+## 🎯 How It Works  
+1️⃣ **Upload clothing items** to your wardrobe.  
+2️⃣ The **image processing algorithm** detects the **color and type** of each item.  
+3️⃣ The **recommendation engine** suggests outfit combinations based on your wardrobe.  
 
-TECHNOLOGIES AND LIBRARIES USED IN OUR PROJECT
+## 🚧 Future Enhancements  
+🔹 **Advanced Style Matching** – Incorporate fashion trends and style rules.  
+🔹 **User Preferences** – Allow users to input favorite colors and styles.  
+🔹 **Mobile App Version** – Expand into mobile development with React Native.  
+🔹 **AI-Powered Fashion Advisor** – Implement a chatbot for personalized styling tips.  
 
-Node.js
-Express.js
-React
-MySQL
-Axios
-TensorFlow
-...
+## 📜 License  
+This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.  
 
-USAGE
-
-1- Navigate to the backend folder and type node index.js to host the backend which will be hosted in localhost5000
-2- Navigate to the frontend folder and type npm start to start the frontend which will be hosted in localhost3000
-
-
-Author: Bertan Berker
-Email: bb6363@rit.edu
-GitHub: MozartofCode
+## 📬 Contact  
+**Author:** Bertan Berker  
+📧 Email: bb6363@rit.edu  
+💻 GitHub: [MozartofCode](https://github.com/MozartofCode)  
