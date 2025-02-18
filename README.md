@@ -73,11 +73,3 @@ cd Brickhack9-Cloth-Recommender
 🔹 **User Preferences** – Allow users to input favorite colors and styles.  
 🔹 **Mobile App Version** – Expand into mobile development with React Native.  
 🔹 **AI-Powered Fashion Advisor** – Implement a chatbot for personalized styling tips.  
-
-## 📜 License  
-This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.  
-
-## 📬 Contact  
-**Author:** Bertan Berker  
-📧 Email: bb6363@rit.edu  
-💻 GitHub: [MozartofCode](https://github.com/MozartofCode)  
